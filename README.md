@@ -4,7 +4,7 @@ This repository hosts the detailed write-up of the select labs from my Computer 
 # Highlighted Labs for Computer Systems
 
 In this entry, I offer a detailed walkthrough of my solutions for 3 of the CMU computer system labs:
-* [Bomb Lab](./readme#bomb-lab) - a practice in using GDB to disassemble a compiled C program and solve increasingly more difficult challenges in order to prevent the bomb from exploding
+* [Bomb Lab](/system_labs/blob/main/README#bomb-lab) - a practice in using GDB to disassemble a compiled C program and solve increasingly more difficult challenges in order to prevent the bomb from exploding
 
 * [Data Lab](./readme#data-lab) - an exercise in effective use of the lowest level functionality of the C programming language to manipulate data and compose more complex operations out of simpler ones
 

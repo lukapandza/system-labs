@@ -4,13 +4,13 @@ This repository hosts the detailed write-up of the select labs from my Computer 
 # Highlighted Labs for Computer Systems
 
 In this entry, I offer a detailed walkthrough of my solutions for 3 of the CMU computer system labs:
-* [Bomb Lab](./labs#bomb-lab) - a practice in using GDB to disassemble a compiled C program and solve increasingly more difficult challenges in order to prevent the bomb from exploding
+* [Bomb Lab](./readme#bomb-lab) - a practice in using GDB to disassemble a compiled C program and solve increasingly more difficult challenges in order to prevent the bomb from exploding
 
-* [Data Lab](./labs#data-lab) - an exercise in effective use of the lowest level functionality of the C programming language to manipulate data and compose more complex operations out of simpler ones
+* [Data Lab](./readme#data-lab) - an exercise in effective use of the lowest level functionality of the C programming language to manipulate data and compose more complex operations out of simpler ones
 
-* [Attack Lab](./labs#attack-lab) - the challenge is to break the behavior of a program and execute unwanted code by manipulating the input in progressively more difficult 5 phases
+* [Attack Lab](./readme#attack-lab) - the challenge is to break the behavior of a program and execute unwanted code by manipulating the input in progressively more difficult 5 phases
 
-Some of these labs were challenging and I needed to reference external material at times. Take a look at the [Bibliography](./labs#bibliography).
+Some of these labs were challenging and I needed to reference external material at times. Take a look at the [Bibliography](./readme#bibliography).
 
 
 # Bomb Lab
@@ -1537,7 +1537,8 @@ $22 = 2
 changing input line 7 to "20".
 That solves the secret_phase.
 
-[Back to Top](./labs#highlighted-labs-for-computer-systems)
+[Back to Top](./readme#highlighted-labs-for-computer-systems)
+
 
 # Data Lab
 Output of ./driver.pl:
@@ -2051,7 +2052,7 @@ int floatFloat2Int(unsigned uf) {
 }
 ```
 
-[Back to Top](./labs#highlighted-labs-for-computer-systems)
+[Back to Top](./readme#highlighted-labs-for-computer-systems)
 
 
 # Attack Lab
@@ -2727,10 +2728,11 @@ $ cat phase5_answer | ./hex2raw | ./rtarget -q
             39 62 39 39 37 66 61 00
 ```
 
-[Back to Top](./labs#highlighted-labs-for-computer-systems)
+[Back to Top](./readme#highlighted-labs-for-computer-systems)
 
 
 # Bibliography
+
 0. How movzbl works: https://stackoverflow.com/questions/13881907/what-is-this-movsbl-instruction
 
 1. State of %eax after strings_not_equal: https://stackoverflow.com/questions/13064809/the-point-of-test-eax-eax
